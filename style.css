@@ -13,11 +13,14 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  gap: 5px;
+  gap: 25px;
 }
-button {
-  border-radius: 25%;
+
+a{
+  color:#f9faf8;
+  text-decoration: none;
 }
+
 
 .hero {
   display: flex;
@@ -30,17 +33,43 @@ button {
 .hero div {
   display: flex;
   border: 1px red solid;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
-.hero-header {
+.hero-header, .hero-header h3 {
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
 
-.hero-main {
+.hero-main{
+  
   padding: 45px;
 }
+
+.hero-main .main-left{
+  display: flex;
+  flex-direction:column;
+  border: 1px solid red;
+}
+
+#sign-up-button{
+  border-radius: 3px;
+  border: white 2px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  width: 75px;
+  text-align: center;
+}
+
+
+.hero-main .main-right img{
+  width: auto;
+  height: 250px;
+}
+
+
 
 .info {
   display: flex;
