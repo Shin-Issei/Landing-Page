@@ -32,7 +32,7 @@ a{
 
 .hero div {
   display: flex;
-  border: 1px red solid;
+  /* border: 1px red solid; */
   margin-left: 110px;
   margin-right: 110px;
 }
@@ -51,16 +51,17 @@ a{
 .hero-main .main-left{
   display: flex;
   flex-direction:column;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #sign-up-button{
   border-radius: 3px;
-  border: white 2px;
+  border: white 1px solid;
   color: #f9faf8;
   background-color: #3882f6;
   width: 75px;
   text-align: center;
+  margin-top: 10px;
 }
 
 
@@ -131,10 +132,11 @@ a{
 .CTA {
   display: flex;
   flex-direction: column;
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
-.CTA .subCall {
+.cta-flex-wrapper {
+  color: #f9faf8;
   display: flex;
   margin-top: 45px;
   margin-bottom: 45px;
@@ -142,7 +144,34 @@ a{
   margin-right: 50px;
   background-color: #3882f6;
   padding: 20px;
+  justify-content:space-around;  
+}
+
+
+
+.cta-flex-left{
+  justify-content:center;
+  align-items: center;
+}
+
+.cta-flex-left p{
+  padding:0;
+  margin:0;
+}
+
+.cta-flex-right{
   justify-content: center;
+  align-items: center;
+}
+
+#callButton{
+  border-radius: 3px;
+  border: white 1px solid;
+  color: #f9faf8;
+  background-color: #3882f6;
+  width: 75px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .footer {
